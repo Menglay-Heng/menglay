@@ -1,0 +1,158 @@
+.menu-link{
+    text-decoration: none;
+}
+.icon a{
+    padding-right: 18px;
+}
+ul li{    
+    display: inline-block;
+    margin-bottom: 20px;
+ } 
+.padding-l-10{
+    padding-left: 10px;
+}
+.font-size-16{
+    font-size: 18px;
+    text-decoration: none;
+}
+.font-size-13{
+    font-size: 11px;
+}
+.op-40{
+    opacity: 0.4;
+}
+
+/* .border-btn{
+    border: 2px solid;
+    border-left: none;
+    color: black;
+    padding-left: 25px;
+    text-align: 50%;
+    padding: 2px;
+    height: 30px;
+} */
+.none-border-right{
+    border-right: none;
+}
+.icon {
+    padding: 25px 30px ;
+}
+.icon:hover{
+    color: blue;
+    cursor: pointer;
+    border: 1px solid #16009C;
+}
+.button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    text-decoration: none;
+   }
+   
+   .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #7560ff;
+    z-index: -1;
+    transition: all 250ms
+   }
+   .button:hover {
+    color: #e8e8e8;
+   }
+   
+   .button:hover::before {
+    width: 100%;
+   }
+.ui-tabs-active .button{
+    background-color: #2506ed;
+    color: white;
+}
+.button1 {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    text-decoration: none;
+   }
+   
+   .button1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #f2ec43b5;
+    z-index: -1;
+    transition: all 250ms
+   }
+   .button1:hover {
+    color: black;
+   }
+   
+   .button1:hover::before {
+    width: 100%;
+   }
+.ui-tabs-active .button1{
+    background-color: #f6ce2c;
+    color: bl;
+}
+.button2 {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    text-decoration: none;
+   }
+   
+   .button2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #3cf349b5;
+    z-index: -1;
+    transition: all 250ms
+   }
+   .button2:hover {
+    color: black;
+   }
+   
+   .button2:hover::before {
+    width: 100%;
+   }
+.ui-tabs-active .button2{
+    background-color: green;
+    color: white;
+}
